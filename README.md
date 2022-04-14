@@ -43,7 +43,7 @@ Silk glands                                             let you produce string b
 Venom glands                                            induce effects on mobs you punch with your fist. These can be crafted with a potion to change the effect, length, and strength.
 Arrow dodging (ender appendix)                          teleports you away before you get hit by an arrow
 Hydroallergenic (ender/blaze organs)                    makes you take damage in water. The more submerged you are the more you take 
-Hydrophobic (ender kidneys) makes you teleport when touching water
+Hydrophobic (ender kidneys)                             makes you teleport when touching water
 Dragon bombs (dragon appendix)                          let you shoot dragon fireballs with r
 Buff purging (dragon liver, dragon kidneys)             decreases buff duration (buffs are positive effects)
 Impact resistant (dragon ribs and dragon spine)         decrease fall and eytra damage
@@ -65,3 +65,5 @@ Ease of access (doors and trapdoors)                    lets you open the mob wi
 Iron repair (golem plating)                             lets you consume iron to heal using v
 Furnace powered (inner furnaces)                        lets you consume fuels for food over time using v
 Knockback Resistance (golem core, golem cable)          reduces knockback taken
+
+
