@@ -47,7 +47,8 @@ onEvent('server.datapack.high_priority', event => {
     //Register your organs here!
     //Refer to https://github.com/Tigereye504/chestcavity/blob/master/src/main/java/net/tigereye/chestcavity/registration/CCOrganScores.java
     //for valid Organ Scores
-    
+    //Read README.md for explanation of the traits!
+
     registerOrgan(new Organ('minecraft:beetroot').addScore('health', 10).addScore('speed', 10).build()) //example.
     registerOrgan(new Organ('kubejs:someorgan').addScore('health', 2).addScore('speed', 20).pseudo().build()) //pseudo organ example for kubejs item
 
