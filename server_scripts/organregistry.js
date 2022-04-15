@@ -50,7 +50,7 @@ onEvent('server.datapack.high_priority', event => {
     //Read README.md for explanation of the traits!
 
     registerOrgan(new Organ('minecraft:beetroot').addScore('health', 10).addScore('speed', 10).build()) //example.
-    registerOrgan(new Organ('kubejs:someorgan').addScore('health', 2).addScore('speed', 20).pseudo().build()) //pseudo organ example for kubejs item
+    registerOrgan(new Organ('kubejscavity:clockwork_heart').addScore('health', 2).addScore('speed', 20).pseudo().build()) //pseudo organ example for kubejs item
 
     //can also build them like this
     registerOrgan(new Organ('minecraft:reetboot')
@@ -58,7 +58,7 @@ onEvent('server.datapack.high_priority', event => {
         .addScore('speed', 10)
         .build()
     )
-    
+    /*
     //Register Types
     registerTypes('typename',
     {
@@ -97,4 +97,5 @@ onEvent('server.datapack.high_priority', event => {
     registerEntityAssignment('entityassignmenttype','chestcavity:types/(something)',[
         'minecraft:ass'
     ])
+    */
 })
