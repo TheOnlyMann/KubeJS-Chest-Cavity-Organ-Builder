@@ -1,6 +1,6 @@
 //Main
 onEvent('recipes', event => {
-    function salvage(output,input){//creates a salvage recipe
+    function salvage(output, input){//creates a salvage recipe
         event.custom({
             type: 'chestcavity:crafting_salvage',
             ingredient: Item.of(input).toJson(),
@@ -9,12 +9,12 @@ onEvent('recipes', event => {
             count: Item.of(output).count
         })
     }
-    function sausageCooking(output,input){//adds sausage -> cooked sausage cooking recipes
-        event.smelting(output,input).xp(0.35)
-        event.smoking(output,input).xp(0.35)
-        event.campfireCooking(output,input).xp(0.35)
+    function sausageCooking(output, input){//adds sausage -> cooked sausage cooking recipes
+        event.smelting(output, input).xp(0.35)
+        event.smoking(output, input).xp(0.35)
+        event.campfireCooking(output, input).xp(0.35)
     }
-    function sausageMaking(output,input){//makes 8 input + sausage skin into output
+    function sausageMaking(output, input){//makes 8 input + sausage skin into output
         event.shapeless(output, [`8x ${input}`, 'chestcavity:sausage_skin'])
     }
     //How to use: Read the info on https://mods.latvian.dev/books/kubejs/page/recipeeventjs 
