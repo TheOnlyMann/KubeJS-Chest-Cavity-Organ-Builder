@@ -1,6 +1,6 @@
 //Main
 onEvent('recipes', event => {
-    function salvage(output,input){
+    function salvage(output,input){//creates a salvage recipe
         event.custom({
             type: 'chestcavity:crafting_salvage',
             ingredient: Item.of(input).toJson(),
@@ -17,5 +17,7 @@ onEvent('recipes', event => {
     function sausageMaking(output,input){//makes 8 input + sausage skin into output
         event.shapeless(output, [`8x ${input}`, 'chestcavity:sausage_skin'])
     }
+    //How to use: Read the info on https://mods.latvian.dev/books/kubejs/page/recipeeventjs 
+
     //salvage('minecraft:stone', '2x minecraft:cobblestone')
 })
